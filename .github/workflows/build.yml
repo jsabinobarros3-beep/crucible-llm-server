@@ -2,8 +2,10 @@ name: Build iOS IPA
 
 on:
   workflow_dispatch:
-nuch
-    branches: [master]
+push
+    branches: 
+      - master
+      - main
 
 jobs:
   build:
